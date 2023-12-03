@@ -29,6 +29,11 @@ img{
    
 }
 
+.reaction--amount{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .reaction--img{
     font-size: 28px;
     transition: all 50ms ease-in-out;
