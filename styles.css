@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  font-family: "noto sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+}
+
+.reaction--img{
+    font-size: 28px;
+}
+
+
+.header__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.video{
+    width: 100%;
+    border: none;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.reactions{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 20%;
+}
+
+.reaction{
+    display: flex;
+    margin-bottom: 12px;
+    margin-left: 12px;
+}
+
+.pitch__wrapper--video{
+    width: 50%;
+    
+}
+
+.ninety-seven{
+    width: calc(0.97*100%);
+    background-color: #eb80b3;
+}
+
+.sixty-four{
+    width: calc(0.64*100%);
+    background-color: #f9d990;
+}
+
+.twenty-four{
+    width: calc(0.24*100%);
+    background-color: #bca0cd;
+}
+
+.three{
+    width: calc(0.03*100%);
+    background-color: palevioletred
+}
+
+.twenty-nine{
+    width: calc(0.29*100%);
+    background-color: lightsalmon
+}
+
+.twelve{
+    width: calc(0.12*100%);
+    background-color: lightblue
+}
+
+.pitch__video--description{
+    display: flex;
+    width: 90%;
+    
+    justify-content: center;
+    margin: 24px 0;
+}
+
+.like-dislike{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 18px;
+    
+}
+
+.like,
+.dislike{
+    background-color: yellow;
+    padding: 6px 48px;
+   
+}
+
+.like{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    
+}
+
+.like > i{
+    margin-right: 18px;
+}
+
+.dislike{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.dislike > i {
+    margin-right:  18px;
+}
+
+.pitch__video--para{
+    text-align: left;
+    width: 80%;
+    padding: 12px 18px;
+}
+
+.pitch__video--para{
+    font-size: 24px;
+}
+
+
+/*
+
+Pitch-Info
+
+*/
+
+.pitch__info--container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.line{
+    width: 1200px;
+}
+
+.pitch--infos{
+    display: flex;
+    width: 100%;
+   
+}
+
+.pitch--info{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 12px 0;
+}
+
+.info--watch{
+    margin: 0 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info--week,
+.info--day{
+    color: rgb(152, 110, 178);
+}
+
+.info--para{
+    color: rgb(152, 110, 178);
+}
+
+.info--icon{
+    display: inline-block;
+    padding: 6px;
+    background-color: rgb(152, 110, 178);
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    color: #FFF;
+}
+
+.info--icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/*
+
+TEAM MEMBERS
+
+*/
+
+.team__members__images--wrapper{
+    display: flex;
+}
+
+.team__member--wrapper{
+    width: 68px;
+    height: 68px;
+    padding: 8px;
+    margin-top: 6px;
+}
+
+.team--img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.team__members--container{
+    margin: 48px 0;
+}
+
+.hr-tm,
+.hr-gl{
+    width: 30%;
+}
+
+
+/*
+
+GALLERY 
+
+*/
+
+.gallery__img--wrapper{
+    width: 375px;
+    height: 270px;
+    
+    padding: 24px;
+}
+
+
+
+.gallery__images--wrapper{
+    display: flex;
+    
+}
+
+
+/*
+
+PITCH OPTIONS
+
+*/
+
+#pitch__options{
+    margin: 64px 0;
+}
+
+.pitch__options--container{
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+    max-width: 800px;
+    height: 60px;
+    border-radius: 48px;
+    padding: 12px;
+}
+
+.pitch--option{
+    margin: 0 12px;
+    color: #000;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.pitch--option:hover{
+    border-bottom: 2px solid #eb80b3;
+    cursor: pointer;
+}
